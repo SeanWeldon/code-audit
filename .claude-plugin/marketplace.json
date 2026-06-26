@@ -1,0 +1,17 @@
+{
+  "name": "code-audit",
+  "owner": {
+    "name": "Sean Weldon",
+    "email": "sean@sean-weldon.com"
+  },
+  "plugins": [
+    {
+      "name": "code-audit",
+      "source": "./code-audit",
+      "description": "Whole-codebase audit suite: light gut-check, full client deliverable (Codex cross-check + branded DOCX), deep internal find-everything audit, and takeover feasibility (security battery + ownership finders + acquire/stabilize/rebuild verdict + strategic advice). One shared research engine (four-lens SAST/SCA/DAST/secrets + verify-against-source-of-truth + 2026 AI-codegen footgun + supply-chain). Entry point /audit.",
+      "version": "0.2.0",
+      "category": "code-review",
+      "tags": ["audit", "security", "code-review", "client", "supply-chain", "takeover"]
+    }
+  ]
+}
